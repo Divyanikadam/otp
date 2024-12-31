@@ -3,7 +3,7 @@ input = [...input];
 
 
 
- input.forEach(input,index) =>
+ input.forEach(input,index) ;
     {
     input.addEventListener('keyup',(e) => 
         {
@@ -21,4 +21,4 @@ input = [...input];
                 }
             }
         });
-    };
+    }
